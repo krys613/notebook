@@ -13,7 +13,7 @@ var wait = function(dtd){
 　　　　alert("执行完毕！");
 
 　　　　dtd.resolve(); // 改变deferred对象的执行状态
-    //Optional arguments that are passed to the doneCallbacks.  dtd.resolve(templateID) 传值
+    //Optional arguments that are passed to the doneCallbacks.  dtd.resolve(templateID) 把templateID传给上一步调用的函数做参数
 
 　　};
 
