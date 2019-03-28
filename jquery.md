@@ -13,6 +13,7 @@ var wait = function(dtd){
 　　　　alert("执行完毕！");
 
 　　　　dtd.resolve(); // 改变deferred对象的执行状态
+    //Optional arguments that are passed to the doneCallbacks.  dtd.resolve(templateID) 传值
 
 　　};
 
@@ -28,4 +29,5 @@ $.when(wait(dtd))
 
 　.fail(function(){ alert("出错啦！"); });
 ```
+
 
